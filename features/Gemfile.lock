@@ -1,0 +1,67 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    commonwatir (4.0.0)
+    data_magic (0.22)
+      faker (>= 1.1.2)
+      yml_reader (>= 0.6)
+    diff-lcs (1.2.5)
+    faker (1.6.6)
+      i18n (~> 0.5)
+    ffi (1.9.14)
+    headless (2.3.1)
+    i18n (0.7.0)
+    json (2.0.2)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    page-object (1.2.0)
+      page_navigation (>= 0.9)
+      selenium-webdriver (>= 2.44.0)
+      watir-webdriver (>= 0.6.11)
+    page_navigation (0.9)
+      data_magic (>= 0.14)
+    pkg-config (1.1.7)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.3)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    rubyzip (1.2.0)
+    selenium-webdriver (2.53.4)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    watir (5.0.0)
+      commonwatir (~> 4)
+      watir-webdriver
+    watir-webdriver (0.9.3)
+      selenium-webdriver (>= 2.46.2)
+    websocket (1.2.3)
+    yml_reader (0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  headless
+  json
+  nokogiri
+  page-object
+  rspec
+  watir
+  watir-webdriver
+
+BUNDLED WITH
+   1.11.2
