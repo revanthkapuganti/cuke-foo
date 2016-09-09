@@ -7,5 +7,5 @@ Given(/^Iam on gmail page$/) do
 end
 
 When(/^I enter valid username and password$/) do
-  @gmail_page.login('rev.sqa@gmail.com','Revant09')
+  @gmail_page.login('foo_master@gmail.com','whatafool')
 end
